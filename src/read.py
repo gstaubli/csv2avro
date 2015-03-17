@@ -5,6 +5,7 @@ import sys
 reader = DataFileReader(open(sys.argv[1], "r"), DatumReader())
 count = 0
 for line in reader:
-    count += 1
+	print(line)
+	count += 1
 reader.close()
-print(count)
+print("Count: %d" % count)
