@@ -10,3 +10,5 @@ Usage
 
 ```usage: csv2avro.py [-h] [--dialect DIALECT] in_file out_file
 csv2avro.py: error: too few arguments```
+
+Default dialect = 'excel-tab' - default python dialects are supported.
