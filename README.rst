@@ -31,5 +31,8 @@ This will convert the example.csv into example.avro, which you can then read and
 	{u'food': u'Burgers', u'name': u'John'}
 	
 	Count: 3
-	
+
+================
+More Information
+================	
 To learn more about why I wrote this utility, see my blog post: http://garrens.com/blog/2015/03/21/converting-csvs-with-headers-to-avro/
